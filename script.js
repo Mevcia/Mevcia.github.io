@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://mevcia.github.io/v1/task/';
+  const apiRoot = 'https://dry-castle-79288.herokuapp.com/v1/task/';
   const trelloApiRoot = 'http://localhost:8080/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
